@@ -6,8 +6,7 @@ var requestOptions = {
 };
 
 function printReverse(html) {
-  html.reverse();
-
+  console.log(html.split("").reverse(" ").join(""));
 
 }
 
